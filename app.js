@@ -25,7 +25,7 @@ app.use('/api/books', books);
 
 const port = process.env.PORT || 5000;
 
-app.listen(port, () => console.log(`Server running on port ${port}`));
+app.listen(process.env.PORT, '0.0.0.0');
 
 // Accessing the path module
 const path = require("path");
