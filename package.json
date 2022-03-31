@@ -4,10 +4,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "concurrently --kill-others-on-fail \"npm run app\" \"npm run start --prefix mern_book\"",
+    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start --prefix mern_book\"",
     "heroku-postbuild": "cd mern_book && npm run build",
     "server": "node app.js",
-    "develop": "concurrently --kill-others-on-fail \"npm run app\" \"npm run start --prefix mern_book\""
+    "develop": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start --prefix mern_book\""
   },
   "repository": {
     "type": "git",
