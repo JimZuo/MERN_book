@@ -1,0 +1,11 @@
+
+
+{
+    "mongoURI" :
+      "mongodb+srv://jimzuo:ENSE701@cluster0.q0xhg.mongodb.net/MERN-JimZuo?retryWrites=true&w=majority"
+ 
+  }
+
+
+
+    
