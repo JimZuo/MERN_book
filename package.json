@@ -6,12 +6,12 @@
   "scripts": {
     "app": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd client && npm run build",
-    "install-client": "cd client && npm install",
-    "heroku-postbuild": "npm run install-client && npm run build",
-    "server": "nodemon server.js",
-    "develop": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start --prefix client\"",
-    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start --prefix client\""
+    "build": "cd mern_book && npm run build",
+    "install-client": "cd mern_book && npm install",
+    "heroku-postbuild": "npm run install-mern_book && npm run build",
+    "server": "nodemon app.js",
+    "develop": "concurrently --kill-others-on-fail \"npm run app\" \"npm run start --prefix mern_book\"",
+    "start": "concurrently --kill-others-on-fail \"npm run app\" \"npm run start --prefix mern_book\""
 
   },
   "repository": {
