@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-   "start": "nodemon app.js",
-   "heroku-postbuild":"cd mern_book && npm run build"
+    "start": "nodemon app.js",
+    "heroku-postbuild": "cd mern_book && npm run build"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,6 @@
     "validation": "0.0.1"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.4"
   }
 }
