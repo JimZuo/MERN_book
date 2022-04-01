@@ -1,0 +1,1 @@
+web: concurrently --kill-others-on-fail \"npm run server\" \"react-scripts start --prefix mern_book\"
